@@ -49,7 +49,7 @@ class Window:
         synchronize(1, self.train)
 
     def func2(self):
-        synchronize(2, self.test)
+        synchronize(2, self.generate)
 
     def load_widget(self):
         btn1 = Button(self.win, text="点我来训练", command=self.func1)
